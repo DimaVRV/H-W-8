@@ -1,0 +1,15 @@
+div :first-child {
+    color: pink;
+}
+.yellow{
+    color: yellow;
+}
+#greycol {
+    color: gray;
+}
+.text-box div > p {
+    color: red;
+}
+.text-box :nth-last-child(2) {
+    color: green;
+}
