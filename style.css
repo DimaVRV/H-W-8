@@ -17,17 +17,29 @@ div :first-child {
 ul {
     background-color: chocolate;
 }
-p {
-    color: blueviolet;
-}
+
 #list{
     background-color: cadetblue;
 }
-.list-link :nth-child(2n-1) {
+.list-link :nth-child(3n-1) {
     color: red;
     font-size: 20px;
 }
 .list-link :nth-child(3n-3){
     background-color: rgb(56, 255, 6);
     font-size: 13px;
+}
+
+    
+
+#List :nth-child(3) {
+    color: blue;
+        background-color: aqua;
+}
+.Monday :hover{
+color: blue;
+background-color: brown;
+}
+.Tuesday :visited{
+    color: aqua;
 }
