@@ -7,7 +7,7 @@ div :first-child {
 #greycol {
     color: gray;
 }
-.text-box div > p {
+.text-box div > p{
     color: red;
 }
 .text-box :nth-last-child(2) {
@@ -18,28 +18,33 @@ ul {
     background-color: chocolate;
 }
 
-#list{
+#list:hover{
     background-color: cadetblue;
 }
-.list-link :nth-child(3n-1) {
+.list-link :nth-child(6n-1) {
     color: red;
     font-size: 20px;
 }
-.list-link :nth-child(3n-3){
+.list-link :nth-child(4n-3){
     background-color: rgb(56, 255, 6);
     font-size: 13px;
 }
 
     
 
-#List :nth-child(3) {
+#link :nth-child(3) {
     color: blue;
         background-color: aqua;
 }
-.Monday :hover{
-color: blue;
+.Monday:hover{
 background-color: brown;
 }
-.Tuesday :visited{
-    color: aqua;
+.Tuesday:hover{
+    background-color: aqua;
+}
+.yellow:hover{
+    background-color: black;
+}
+#greycol:hover{
+    background-color: aqua;
 }
